@@ -223,7 +223,7 @@ def stylize(args):
             output, _ = enhance_subnet(output)
             output, _ = refine_subnet(output)
 
-            imsave(output, args.result_dir+args.model_name+"/result.jpg")
+            imsave(output, args.result_dir+"/"+args.model_name+"/result.jpg")
         
     else:
         content_trans = transforms.Compose([#transforms.Resize(480),
@@ -242,7 +242,7 @@ def stylize(args):
                 output, _ = enhance_subnet(output)
                 output, _ = refine_subnet(output)
 
-                imsave(output, args.result_dir+args.model_name+"/"+str(i)+".jpg")
+                imsave(output, args.result_dir+"/"+args.model_name+"/"+str(i)+".jpg")
         
 
 
@@ -278,7 +278,7 @@ def main():
                                  help="stylize single image or a image folder")
     eval_arg_parser.add_argument("--content-dir", type=str, required=True,
                                  help="path to content images you want to stylize")
-    eval_arg_parser.add_argument("--result-dir", type=str, default="stylized_imgs/",
+    eval_arg_parser.add_argument("--result-dir", type=str, default="stylized_imgs",
                                  help="path to stylized image, make sure the path exists")
     eval_arg_parser.add_argument("--model-name", type=str, default="marc",
                                  help="name of model to be used for stylizing the images.")

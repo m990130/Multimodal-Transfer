@@ -1,0 +1,221 @@
+Pollock
+cuda
+Loading VGG..
+Computing style features..
+start training with style weights: [200000.0, 1200000.0, 40000.0]
+Fri Oct 26 21:49:03 2018	Epoch 1:	[200/40670]	content: 23.65254	style: 75.51541	total: 99.16795
+
+s_content:7.71482, s_style:2.00584, en_content:9.43683, en_style:7.24535, re_content:0.26417, re_style:0.74138
+
+Fri Oct 26 21:51:50 2018	Epoch 1:	[400/40670]	content: 23.54243	style: 43.04585	total: 66.58828
+
+s_content:12.87878, s_style:1.88454, en_content:10.02865, en_style:4.81280, re_content:0.29398, re_style:0.44526
+
+Fri Oct 26 21:54:40 2018	Epoch 1:	[600/40670]	content: 23.18212	style: 30.91674	total: 54.09886
+
+s_content:11.60388, s_style:1.49787, en_content:9.78916, en_style:4.71290, re_content:0.29846, re_style:0.51711
+
+Fri Oct 26 21:57:24 2018	Epoch 1:	[800/40670]	content: 22.97422	style: 24.77781	total: 47.75203
+
+s_content:12.70125, s_style:1.54711, en_content:10.16795, en_style:3.07856, re_content:0.26341, re_style:0.40157
+
+Fri Oct 26 22:00:12 2018	Epoch 1:	[1000/40670]	content: 22.87100	style: 20.92652	total: 43.79752
+
+s_content:14.47478, s_style:2.14562, en_content:10.12187, en_style:3.52459, re_content:0.31156, re_style:0.35012
+
+Saving models...
+Fri Oct 26 22:03:01 2018	Epoch 1:	[1200/40670]	content: 22.82726	style: 18.32437	total: 41.15163
+
+s_content:10.86284, s_style:1.19747, en_content:10.14672, en_style:2.69683, re_content:0.29746, re_style:0.34118
+
+Fri Oct 26 22:05:55 2018	Epoch 1:	[1400/40670]	content: 22.76705	style: 16.44701	total: 39.21406
+
+s_content:11.43288, s_style:1.87367, en_content:9.81203, en_style:3.14570, re_content:0.30031, re_style:0.35628
+
+Fri Oct 26 22:08:42 2018	Epoch 1:	[1600/40670]	content: 22.69785	style: 15.01476	total: 37.71261
+
+s_content:10.18575, s_style:1.92422, en_content:9.80868, en_style:2.35874, re_content:0.27336, re_style:0.34658
+
+Fri Oct 26 22:11:16 2018	Epoch 1:	[1800/40670]	content: 22.57881	style: 13.92158	total: 36.50039
+
+s_content:12.60500, s_style:1.71578, en_content:9.85178, en_style:2.34818, re_content:0.29559, re_style:0.35916
+
+---------------------LR decrease-----------------------
+Fri Oct 26 22:14:03 2018	Epoch 1:	[2000/40670]	content: 22.41044	style: 13.00643	total: 35.41687
+
+s_content:8.99560, s_style:1.53308, en_content:9.85028, en_style:2.23857, re_content:0.28289, re_style:0.32955
+
+Saving models...
+Fri Oct 26 22:16:51 2018	Epoch 1:	[2200/40670]	content: 22.31168	style: 12.38686	total: 34.69854
+
+s_content:8.47050, s_style:1.49911, en_content:10.21536, en_style:2.76574, re_content:0.26876, re_style:0.42408
+
+Fri Oct 26 22:19:46 2018	Epoch 1:	[2400/40670]	content: 22.28976	style: 11.77031	total: 34.06007
+
+s_content:5.25192, s_style:1.67394, en_content:9.85279, en_style:2.78610, re_content:0.27102, re_style:0.38802
+
+Fri Oct 26 22:22:34 2018	Epoch 1:	[2600/40670]	content: 22.20825	style: 11.25374	total: 33.46199
+
+s_content:8.37166, s_style:10.87497, en_content:8.26504, en_style:61.96676, re_content:0.32645, re_style:1.84373
+
+Fri Oct 26 22:25:19 2018	Epoch 1:	[2800/40670]	content: 22.15577	style: 10.86536	total: 33.02112
+
+s_content:11.71094, s_style:1.54172, en_content:9.97793, en_style:2.89770, re_content:0.27026, re_style:0.41378
+
+Fri Oct 26 22:28:17 2018	Epoch 1:	[3000/40670]	content: 22.05563	style: 10.44906	total: 32.50469
+
+s_content:8.48898, s_style:1.36313, en_content:10.12100, en_style:2.49364, re_content:0.26031, re_style:0.37742
+
+Saving models...
+Fri Oct 26 22:31:14 2018	Epoch 1:	[3200/40670]	content: 21.98420	style: 10.07267	total: 32.05687
+
+s_content:7.08278, s_style:1.47216, en_content:10.07570, en_style:2.34807, re_content:0.25912, re_style:0.37811
+
+Fri Oct 26 22:34:12 2018	Epoch 1:	[3400/40670]	content: 21.89267	style: 9.74689	total: 31.63955
+
+s_content:11.12065, s_style:2.23931, en_content:9.58580, en_style:1.94092, re_content:0.26763, re_style:0.31852
+
+Fri Oct 26 22:36:53 2018	Epoch 1:	[3600/40670]	content: 21.79102	style: 9.45700	total: 31.24802
+
+s_content:7.15154, s_style:2.47411, en_content:9.43636, en_style:2.14755, re_content:0.26075, re_style:0.31793
+
+Fri Oct 26 22:39:27 2018	Epoch 1:	[3800/40670]	content: 21.71091	style: 9.19508	total: 30.90600
+
+s_content:5.64355, s_style:1.65906, en_content:9.92834, en_style:2.85956, re_content:0.26616, re_style:0.35658
+
+---------------------LR decrease-----------------------
+Fri Oct 26 22:42:05 2018	Epoch 1:	[4000/40670]	content: 21.63531	style: 8.95835	total: 30.59366
+
+s_content:12.77879, s_style:1.38610, en_content:9.30000, en_style:2.15896, re_content:0.26202, re_style:0.37408
+
+Saving models...
+Fri Oct 26 22:44:49 2018	Epoch 1:	[4200/40670]	content: 21.55499	style: 8.76248	total: 30.31746
+
+s_content:11.02899, s_style:1.61022, en_content:9.46084, en_style:2.49831, re_content:0.26832, re_style:0.36336
+
+Fri Oct 26 22:47:45 2018	Epoch 1:	[4400/40670]	content: 21.45961	style: 8.55827	total: 30.01788
+
+s_content:4.31014, s_style:2.01423, en_content:9.78024, en_style:2.02908, re_content:0.25862, re_style:0.35178
+
+Fri Oct 26 22:50:22 2018	Epoch 1:	[4600/40670]	content: 21.40420	style: 8.39515	total: 29.79935
+
+s_content:6.42359, s_style:2.20775, en_content:9.27239, en_style:2.00402, re_content:0.26421, re_style:0.32975
+
+Fri Oct 26 22:52:55 2018	Epoch 1:	[4800/40670]	content: 21.33124	style: 8.22941	total: 29.56065
+
+s_content:6.13124, s_style:1.67750, en_content:9.65859, en_style:2.28635, re_content:0.26091, re_style:0.38328
+
+Fri Oct 26 22:55:46 2018	Epoch 1:	[5000/40670]	content: 21.26927	style: 8.07745	total: 29.34672
+
+s_content:9.17435, s_style:2.07664, en_content:9.04323, en_style:1.82732, re_content:0.26173, re_style:0.30178
+
+Saving models...
+Fri Oct 26 22:58:38 2018	Epoch 1:	[5200/40670]	content: 21.19719	style: 7.93676	total: 29.13395
+
+s_content:7.01935, s_style:1.92693, en_content:10.04051, en_style:2.08865, re_content:0.25495, re_style:0.35418
+
+Fri Oct 26 23:01:26 2018	Epoch 1:	[5400/40670]	content: 21.12734	style: 7.80618	total: 28.93352
+
+s_content:8.03220, s_style:1.43170, en_content:9.68300, en_style:1.89889, re_content:0.26458, re_style:0.29788
+
+Fri Oct 26 23:04:15 2018	Epoch 1:	[5600/40670]	content: 21.06556	style: 7.68484	total: 28.75040
+
+s_content:12.10817, s_style:2.08596, en_content:9.84589, en_style:2.00642, re_content:0.27566, re_style:0.30830
+
+Fri Oct 26 23:07:13 2018	Epoch 1:	[5800/40670]	content: 20.99622	style: 7.57382	total: 28.57004
+
+s_content:4.27803, s_style:1.99194, en_content:9.73007, en_style:2.05302, re_content:0.26860, re_style:0.30491
+
+---------------------LR decrease-----------------------
+Fri Oct 26 23:10:00 2018	Epoch 1:	[6000/40670]	content: 20.92202	style: 7.46732	total: 28.38934
+
+s_content:6.70726, s_style:2.17165, en_content:9.19011, en_style:2.34734, re_content:0.27244, re_style:0.31255
+
+Saving models...
+Fri Oct 26 23:12:54 2018	Epoch 1:	[6200/40670]	content: 20.85488	style: 7.36755	total: 28.22243
+
+s_content:11.62416, s_style:2.52276, en_content:9.22435, en_style:2.35506, re_content:0.27190, re_style:0.31013
+
+Fri Oct 26 23:15:41 2018	Epoch 1:	[6400/40670]	content: 20.77960	style: 7.27381	total: 28.05341
+
+s_content:5.16154, s_style:1.67695, en_content:9.28077, en_style:2.07701, re_content:0.27126, re_style:0.29376
+
+Fri Oct 26 23:18:30 2018	Epoch 1:	[6600/40670]	content: 20.72632	style: 7.18851	total: 27.91483
+
+s_content:11.74343, s_style:2.03128, en_content:9.52480, en_style:2.14015, re_content:0.26831, re_style:0.29337
+
+Fri Oct 26 23:21:23 2018	Epoch 1:	[6800/40670]	content: 20.66046	style: 7.10160	total: 27.76206
+
+s_content:6.55963, s_style:1.76510, en_content:9.29025, en_style:1.85785, re_content:0.25591, re_style:0.30818
+
+Fri Oct 26 23:24:16 2018	Epoch 1:	[7000/40670]	content: 20.60644	style: 7.02118	total: 27.62763
+
+s_content:7.55757, s_style:1.37195, en_content:9.45366, en_style:2.03511, re_content:0.27654, re_style:0.30545
+
+Saving models...
+Fri Oct 26 23:27:02 2018	Epoch 1:	[7200/40670]	content: 20.54843	style: 6.94711	total: 27.49554
+
+s_content:5.39585, s_style:1.48547, en_content:9.29225, en_style:1.91151, re_content:0.26253, re_style:0.31118
+
+Fri Oct 26 23:29:44 2018	Epoch 1:	[7400/40670]	content: 20.48234	style: 6.87546	total: 27.35780
+
+s_content:8.43888, s_style:1.70312, en_content:9.34969, en_style:1.75641, re_content:0.25609, re_style:0.32208
+
+Fri Oct 26 23:32:36 2018	Epoch 1:	[7600/40670]	content: 20.41842	style: 6.80843	total: 27.22685
+
+s_content:7.45007, s_style:2.15088, en_content:9.32888, en_style:2.27176, re_content:0.26188, re_style:0.33619
+
+Fri Oct 26 23:35:14 2018	Epoch 1:	[7800/40670]	content: 20.35945	style: 6.74297	total: 27.10242
+
+s_content:7.70552, s_style:2.07442, en_content:9.02335, en_style:1.84601, re_content:0.27376, re_style:0.27534
+
+---------------------LR decrease-----------------------
+Fri Oct 26 23:38:08 2018	Epoch 1:	[8000/40670]	content: 20.30946	style: 6.68234	total: 26.99180
+
+s_content:7.53027, s_style:2.13028, en_content:9.86191, en_style:2.37373, re_content:0.26537, re_style:0.34553
+
+Saving models...
+Fri Oct 26 23:40:54 2018	Epoch 1:	[8200/40670]	content: 20.25456	style: 6.62227	total: 26.87683
+
+s_content:13.16435, s_style:2.60020, en_content:9.13610, en_style:1.69878, re_content:0.26216, re_style:0.30833
+
+Fri Oct 26 23:43:39 2018	Epoch 1:	[8400/40670]	content: 20.20068	style: 6.56490	total: 26.76558
+
+s_content:8.43853, s_style:2.31720, en_content:8.94664, en_style:1.95119, re_content:0.26921, re_style:0.32572
+
+Fri Oct 26 23:46:29 2018	Epoch 1:	[8600/40670]	content: 20.14521	style: 6.51015	total: 26.65536
+
+s_content:11.11080, s_style:2.58910, en_content:9.24449, en_style:1.60543, re_content:0.26396, re_style:0.27789
+
+Fri Oct 26 23:49:13 2018	Epoch 1:	[8800/40670]	content: 20.09395	style: 6.45758	total: 26.55153
+
+s_content:8.75333, s_style:1.81810, en_content:9.41635, en_style:1.90504, re_content:0.24593, re_style:0.34282
+
+Fri Oct 26 23:52:04 2018	Epoch 1:	[9000/40670]	content: 20.04337	style: 6.40786	total: 26.45123
+
+s_content:8.88883, s_style:2.17492, en_content:9.41612, en_style:1.86642, re_content:0.25693, re_style:0.33604
+
+Saving models...
+Fri Oct 26 23:55:02 2018	Epoch 1:	[9200/40670]	content: 19.99821	style: 6.36094	total: 26.35916
+
+s_content:8.32473, s_style:2.25738, en_content:8.60975, en_style:1.64393, re_content:0.25236, re_style:0.31755
+
+Fri Oct 26 23:57:49 2018	Epoch 1:	[9400/40670]	content: 19.94840	style: 6.31560	total: 26.26399
+
+s_content:5.81505, s_style:2.39334, en_content:9.14504, en_style:1.86427, re_content:0.27891, re_style:0.31591
+
+Sat Oct 27 00:00:48 2018	Epoch 1:	[9600/40670]	content: 19.90352	style: 6.27222	total: 26.17574
+
+s_content:8.68268, s_style:2.40161, en_content:9.03424, en_style:1.75417, re_content:0.25226, re_style:0.29994
+
+Sat Oct 27 00:03:42 2018	Epoch 1:	[9800/40670]	content: 19.86033	style: 6.23076	total: 26.09109
+
+s_content:5.88147, s_style:1.76617, en_content:8.60448, en_style:1.77942, re_content:0.25959, re_style:0.30103
+
+---------------------LR decrease-----------------------
+Sat Oct 27 00:06:32 2018	Epoch 1:	[10000/40670]	content: 19.80993	style: 6.19031	total: 26.00024
+
+s_content:11.17316, s_style:2.92195, en_content:9.59529, en_style:1.61747, re_content:0.25321, re_style:0.29431
+
+Saving models...
+Saving models...

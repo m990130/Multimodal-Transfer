@@ -19,7 +19,7 @@ use **single-image = 1** to specify only stylize a single image. **model-name** 
 $ python multimodal_style.py eval \
   --single-image 1 \
   --content-dir path/to/<content_image.jpg> \
-  --result-dir path/to/<stylized_img.jpg>
+  --result-dir path/to/<stylized_img.jpg> \
   --model-name <model_prefix_in_pretrained_model>
 ```
 ### To stylize more than one images

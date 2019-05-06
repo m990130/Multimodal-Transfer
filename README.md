@@ -5,6 +5,9 @@ This depo contains a pytorch implemantation of MultiModal Style Transfer, see ht
 
 Some pretrained models and their correspoinding result are in *pretrained_models/* and *stylized_imgs/* respectively.
 
+## Notebook
+There are 2 notebooks, **Models_tester.ipynb** shows how to do inference, and **test_single_model.ipynb** demonstrates the training procedure.
+
 ## Stylize image
 To stylize the image, you need a trained model(contains 3 subnetwork: style-, enhance- and refine network), single image or a image folder for content image. There are several pretrained models in folder *pretrained_models/*. The subnetworks belonging to the same style are named with same prefix, e.g. **Pollock_St.pt, Pollock_En.pt and Pollock_Re.pt** represent the three subnetworks mentioned above, that trained form the painting *ref_style_images/Pollock-number-one-moma-November-31-1950-1950.jpg*.
 
@@ -28,7 +31,7 @@ In this mode, the stylized images will be stored as *result-dir/model-name/str(i
 ## Training a model
 For training I used the COCO dataset, with **epoch=1** and **maxiter=8000**, so the model basically got trained on 8000 images from COCO. The training took around 2.5 hours in such setting. Of course, the epoch and maxiter (how many iterations per epoch, or how many images were seen during each epoch) counld be larger, but I found that most of the style after 8000 iterations didn't change much. Maybe a better way to is to change the parameters in **style-weight**, which needs a lot of adjustment.
 ```bash
-$ python train.py train \
+$ python multimodal_style.py train \
   --epochs 1 \
   --maxiter 8000 \
   --batch-size 1 \

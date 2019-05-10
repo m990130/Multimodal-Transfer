@@ -12,6 +12,7 @@ Some pretrained models and their correspoinding result are in *pretrained_models
 <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/31.jpg" >
 <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/88.jpg">
 <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/35.jpg">
+**note that: the content images were upsampled during the inference, hence the results have higher resolution than orginal images (first column)**
 
 
 ## Notebook

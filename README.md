@@ -5,6 +5,15 @@ This depo contains a pytorch implemantation of MultiModal Style Transfer, see ht
 
 Some pretrained models and their correspoinding result are in *pretrained_models/* and *stylized_imgs/* respectively.
 
+
+## Result Preview
+|      Origin              |        Skull              |         Pollock           |             Munch
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/31.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/31.jpg" >
+<img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/88.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/88.jpg">
+<img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/0_Original/image_folder/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Skull/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Pollock/35.jpg"> | <img src="https://github.com/m990130/Multimodal-Transfer/blob/master/stylized_imgs/Munch/35.jpg">
+
+
 ## Notebook
 There are 2 notebooks, **Models_tester.ipynb** shows how to do inference, and **test_single_model.ipynb** demonstrates the training procedure.
 

@@ -257,3 +257,4 @@ class Style_Subnet(torch.nn.Module):
         
         # we need resized_x for calculating the first content loss
         return y, x
+    
